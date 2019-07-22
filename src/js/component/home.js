@@ -8,12 +8,16 @@ import Footer from "./Footer"; //Jumbotron's file uses "export default class Jum
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="text-center mt-5">
+			<React.Fragment>
 				<Nav />
-				<Jumbotron />
-				<CardDeck />
+				<div className="container">
+					<Jumbotron />
+				</div>
+				<div className="container">
+					<CardDeck />
+				</div>
 				<Footer />
-			</div>
+			</React.Fragment>
 		);
 	}
 }

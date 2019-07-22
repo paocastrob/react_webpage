@@ -4,8 +4,8 @@ import React from "react";
 export default class Jumbotron extends React.Component {
 	render() {
 		return (
-			<div className="text-center mt-5">
-				<div className="jumbotron">
+			<div className="text-center">
+				<div className="jumbotron mt-5">
 					<h1 className="display-4">Hello, world!</h1>
 					<p className="lead">
 						This is a simple hero unit, a simple jumbotron-style
